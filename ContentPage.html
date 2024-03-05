@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FASHIONcontent</title>
+    <link rel="stylesheet" href="ContentPage.css">
+</head>
+<body>
+    <header class="header">
+        <image class="logo"></image>
+
+            <nav class="navbar">
+                <a href="HomePage.html" class="option">Home page</a>
+                <a href="ContentPage.html" class="option">Content page</a>
+                <a href="ContactPage.html" class="option">Contact page</a>
+            </nav>
+    </header>
+
+    <section class="content" id="section2">
+        <div class="firstsection">
+            <h1>FASHION ODDYSSEY</h1><br>
+            <p>Step into a realm where creativity thrives without limits and self-expression reigns supreme. Fashion is more tan just clothing; it’s a form of art, a means of communication, and a reflection of individuality. Through fashion, we have the opportunity to express ourselves authentically and creatively, forging connections with others who resonate with our unique style. </p>
+        </div>
+
+        <div class="secondsection">
+            <img id="f2" src="Pictures/psychologyoffashion.png">
+            <h1>The Psychology of Style</h1><br>
+            <p>Our clothing  not only reflect our identity but also influence our thoughts, feelings, and behavior.  Psychologists explore “enclothed cognition,” revealing how our attire impacts our self-perception and mental processes. Understanding this psychology empowers us to use fashion to boost confidence, uplift mood, and authentically express ourselves. </p>
+        </div>
+
+        <div class="thirdsection">
+            <img id="f3" src="Pictures/diversity-illustration.jpg">
+            <h1>Inclusive Fashion: Celebrating Diversity</h1><br>
+            <p>Fashion welcomes all, regardless of age, size, gender or background. Here, we honor the rise of inclusive fashion, embracing diversity and advocating for representation. From inclusive sizing to gender-neutral clothing lines, we explore how fashion brands and designers are breaking down barriers and championing inclusivity in all its forms. </p>
+        </div>
+        
+        <div class="fourthsection">
+            <img id="f4" src="Pictures/fashionforward.png">
+            <h1>Fashion Forward: Style’s Endless Journey</h1><br>
+            <p>Fashion transcends mere garments; it embodies self-expression, creativity, and cultural essence. We aim to ignite your style journey through our exploration of fashion’s core, icons, and breakthroughs. Whether you’re a seasoned fashion enthusiast or a curious newcomer, there’s always something new to discover in the vibrant and ever-evolving world of style. </p>
+        </div>
+    </section>
+
+
+    <style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+
+}
+
+body{
+    background-color:#000000;
+    color: white;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    height: 100px;
+
+}
+
+/* NAVBAR----------------------------------------------------------- */
+
+.navbar a{
+    font-size: 18px;
+    color:yellow;
+    text-decoration: none;
+    font-weight: 700;
+    margin-left: 60px;
+    transition: .3s;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.navbar a.active{
+    color:#ffffff;
+}
+
+.navbar a:hover:not(:active){
+    color:#ffffff;
+}
+.content {
+    height: auto;
+    display: flex;
+    padding: 0 10%;
+    background-color: #000000;
+    /* margin-top: 500px; Remove this line */
+    margin: 0;
+    margin-bottom: 50px;
+}
+
+.content .firstsection{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: -100px;
+    font-size: 28px;
+    width: 20%;
+    font-weight: 100px;
+
+
+}
+
+.content .firstsection h1{
+    text-align: justify;
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.content .firstsection p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: 10px;
+    width: 110%;
+
+}
+
+.content .secondsection{
+    margin-top: 60px;
+    margin-bottom: 50px;
+    margin-left: 200px;
+    font-size: 30px;
+    width: 30%;
+    font-weight: 100px;
+
+}
+
+.content .secondsection h1{
+    text-align: justify;
+    font-size: 45px;
+    font-weight: 100;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    color: #F2EDDB;
+}
+
+.content .secondsection p{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 5px;
+    width: 100%;
+    color: #F2EDDB;
+}
+
+.secondsection #f2{
+    height: 200px;
+}
+
+.thirdsection #f3{
+    height: 220px;
+}
+
+.fourthsection #f4{
+    height: 220px;
+}
+
+.content .thirdsection{
+    margin-top: 60px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    font-size: 30px;
+    width: 35%;
+    font-weight: 100px;
+
+}
+
+.content .thirdsection h1{
+    text-align: justify;
+    font-size: 45px;
+    font-weight: 100;
+    width: 105%;
+    font-family: 'Times New Roman', Times, serif;
+    color: #F2EDDB;
+}
+
+.content .thirdsection p{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 5px;
+    width: 100%;
+    color: #F2EDDB;
+}
+
+.content .fourthsection{
+    margin-top: 60px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    font-size: 30px;
+    width: 40%;
+    font-weight: 100px;
+
+
+}
+
+.content .fourthsection h1{
+    text-align: justify;
+    font-size: 45px;
+    font-weight: 100;
+    width: 91%;
+    font-family: 'Times New Roman', Times, serif;
+    color: #F2EDDB;
+}
+
+.content .fourthsection p{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 5px;
+    width: 98%;
+    color: #F2EDDB;
+}
+    </style>
+    
+</body>
+</html>

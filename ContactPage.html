@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FASHIONcontact</title>
+    <link rel="stylesheet" href="ContactPage.css">
+</head>
+<body>
+    <header class="header">
+        <image class="logo" src="Pictures/cropped_image.png"></image>
+
+            <nav class="navbar">
+                <a href="HomePage.html" class="option">Home page</a>
+                <a href="ContentPage.html" class="option">Content page</a>
+                <a href="ContactPage.html" class="option">Contact page</a>
+            </nav>
+    </header>
+
+    <section class="contact" id="section3">
+    <div class="contactinformation">
+        <h1>Contact Information</h1>
+    </div>
+
+    <div class="mailing">
+        <a href="https://www.britannica.com/place/New-York-City" target="_blank">
+        <h3>Mailing Address</h3>
+        <p>330 Cornelia St. New York City</p>
+    </a>
+    </div>
+
+    <div class="email">
+        <h3>Email Address</h3>
+        <p>hautecoutureoasis@gmail.com</p>
+    </div>
+
+    <div class="phone">
+        <h3>Phone Number</h3>
+        <p>(123) 456-7890</p>
+    </div>
+
+    </section>
+
+    <style>
+        
+        .contact {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 5%;
+    margin: auto;
+    justify-content: space-between;
+    background-image: url(Pictures/DG_WomenFW23-24_Finale-2-1-scaled.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.contact .box{
+    text-align: center;
+}
+.contact .imagesize{
+    height: 100px;
+    margin-top: -50px;
+
+}
+.contact .contactinformation{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    font-style: italic;
+    font-weight: 1000px;
+    text-align: center; /* Align the text to the center */
+    color: #F2EDDB;
+
+    margin-bottom: 500px;
+    margin-left: 650px;
+    width: auto; /* Adjusted width */
+}
+
+.contactinformation h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    font-style: italic;
+    font-weight: 1000px;
+    text-align: center; /* Align the text to the center */
+    color: #F2EDDB;
+}
+.mailing a{
+    color: #F2EDDB;
+    text-decoration: none;
+}
+.contact .mailing {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-align: center; /* Align the text to the center */
+    color: #F2EDDB;
+    text-decoration: none;
+    transition: border-color 0.9s ease; /* Add transition effect */
+    margin: 0 auto; /* Center the element horizontally */
+    margin-left: -700px;
+    margin-bottom: 200px;
+    width: 50%; /* Adjusted width */
+}
+.contact .mailing:hover {
+    border-color: white; /* Change border color on hover */
+}
+.mailing h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+.mailing p {
+    text-align: center; /* Align the text to the center */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.contact .email {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-align: center; /* Align the text to the center */
+    color: #F2EDDB;
+
+    margin: 0 auto; /* Center the element horizontally */
+    margin-left: -1230px;
+    margin-bottom: 5px;
+    width: 50%; /* Adjusted width */
+}
+
+.email p {
+    text-align: center; /* Align the text to the center */
+}
+.phone a{
+    text-decoration: none;
+    color:#F2EDDB;
+}
+
+.contact .phone {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-style: italic;
+    text-align: center; /* Align the text to the center */
+    color: #F2EDDB;
+
+    margin: 0 auto; /* Center the element horizontally */
+    margin-left: -1230px;
+    margin-bottom: -300px;
+    width: 50%; /* Adjusted width */
+}
+
+.email p {
+    text-align: center; /* Align the text to the center */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.mailing.active{
+    color:#ffffff;
+    border: 10px white solid;
+}
+
+.mailing:hover:not(:active){
+    color:#ffffff;
+    border: 10px white solid;
+}
+
+.email.active{
+    color:#ffffff;
+    border: 10px white solid;
+}
+
+.email:hover:not(:active){
+    color:#ffffff;
+    border: 10px white solid;
+}
+
+    </style>
+    
+</body>
+</html>

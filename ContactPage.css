@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+
+}
+
+body{
+    background-color:#000000;
+    color: white;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    height: 100px;
+
+}
+
+/* NAVBAR----------------------------------------------------------- */
+
+.navbar a{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    margin-left: 60px;
+    transition: .3s;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.navbar a.active{
+    color:#666349;
+}
+
+.navbar a:hover:not(:active){
+    color:#6e6d5d;
+}
+.contact {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 5%;
+    margin: auto;
+    justify-content: space-between;
+    background-image: url(Pictures/DG_WomenFW23-24_Finale-2-1-scaled.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.contact .box{
+    text-align: center;
+}
+.contact .imagesize{
+    height: 100px;
+    margin-top: -50px;
+
+}
+.contact .contactinformation{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    font-style: italic;
+    font-weight: 1000px;
+    text-align: center; /* Align the text to the center */
+    color: #F2EDDB;
+
+    margin-bottom: 500px;
+    margin-left: 650px;
+    width: auto; /* Adjusted width */
+}
+
+.contactinformation h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    font-style: italic;
+    font-weight: 1000px;
+    text-align: center; /* Align the text to the center */
+    color: #F2EDDB;
+}
+.mailing a{
+    color: #F2EDDB;
+    text-decoration: none;
+}
+.contact .mailing {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-align: center; /* Align the text to the center */
+    color: #F2EDDB;
+    text-decoration: none;
+    transition: border-color 0.9s ease; /* Add transition effect */
+    margin: 0 auto; /* Center the element horizontally */
+    margin-left: -700px;
+    margin-bottom: 200px;
+    width: 50%; /* Adjusted width */
+}
+.contact .mailing:hover {
+    border-color: white; /* Change border color on hover */
+}
+.mailing h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: #F2EDDB;
+}
+.mailing p {
+    text-align: center; /* Align the text to the center */
+    font-family: 'Times New Roman', Times, serif;
+    color:#F2EDDB ;
+}
+
+.contact .email {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-align: center; /* Align the text to the center */
+    color: #F2EDDB;
+
+    margin: 0 auto; /* Center the element horizontally */
+    margin-left: -1230px;
+    margin-bottom: 5px;
+    width: 50%; /* Adjusted width */
+}
+
+.email p {
+    text-align: center; /* Align the text to the center */
+}
+.phone a{
+    text-decoration: none;
+    color:#F2EDDB;
+}
+
+.contact .phone {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-style: italic;
+    text-align: center; /* Align the text to the center */
+    color: #F2EDDB;
+
+    margin: 0 auto; /* Center the element horizontally */
+    margin-left: -1230px;
+    margin-bottom: -300px;
+    width: 50%; /* Adjusted width */
+}
+
+.email p {
+    text-align: center; /* Align the text to the center */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.mailing.active{
+    color:#ffffff;
+    border: 10px white solid;
+}
+
+.mailing:hover:not(:active){
+    color:#ffffff;
+    border: 10px white solid;
+}
+
+.email.active{
+    color:#ffffff;
+    border: 10px white solid;
+}
+
+.email:hover:not(:active){
+    color:#ffffff;
+    border: 10px white solid;
+}
+
